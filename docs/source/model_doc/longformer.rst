@@ -90,6 +90,50 @@ LongformerTokenizerFast
 .. autoclass:: transformers.LongformerTokenizerFast
     :members: 
 
+Longformer specific outputs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. autoclass:: transformers.models.longformer.modeling_longformer.LongformerBaseModelOutput
+    :members: 
+
+.. autoclass:: transformers.models.longformer.modeling_longformer.LongformerBaseModelOutputWithPooling
+    :members: 
+
+.. autoclass:: transformers.models.longformer.modeling_longformer.LongformerMaskedLMOutput
+    :members: 
+
+.. autoclass:: transformers.models.longformer.modeling_longformer.LongformerQuestionAnsweringModelOutput
+    :members: 
+
+.. autoclass:: transformers.models.longformer.modeling_longformer.LongformerSequenceClassifierOutput
+    :members: 
+
+.. autoclass:: transformers.models.longformer.modeling_longformer.LongformerMultipleChoiceModelOutput
+    :members: 
+
+.. autoclass:: transformers.models.longformer.modeling_longformer.LongformerTokenClassifierOutput
+    :members: 
+
+.. autoclass:: transformers.models.longformer.modeling_tf_longformer.TFLongformerBaseModelOutput
+    :members: 
+
+.. autoclass:: transformers.models.longformer.modeling_tf_longformer.TFLongformerBaseModelOutputWithPooling
+    :members: 
+
+.. autoclass:: transformers.models.longformer.modeling_tf_longformer.TFLongformerMaskedLMOutput
+    :members: 
+
+.. autoclass:: transformers.models.longformer.modeling_tf_longformer.TFLongformerQuestionAnsweringModelOutput
+    :members: 
+
+.. autoclass:: transformers.models.longformer.modeling_tf_longformer.TFLongformerSequenceClassifierOutput
+    :members: 
+
+.. autoclass:: transformers.models.longformer.modeling_tf_longformer.TFLongformerMultipleChoiceModelOutput
+    :members: 
+
+.. autoclass:: transformers.models.longformer.modeling_tf_longformer.TFLongformerTokenClassifierOutput
+    :members: 
 
 LongformerModel
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -151,5 +195,26 @@ TFLongformerForQuestionAnswering
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. autoclass:: transformers.TFLongformerForQuestionAnswering
+    :members: call
+
+
+TFLongformerForSequenceClassification
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. autoclass:: transformers.TFLongformerForSequenceClassification
+    :members: call
+
+
+TFLongformerForTokenClassification
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. autoclass:: transformers.TFLongformerForTokenClassification
+    :members: call
+
+
+TFLongformerForMultipleChoice
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. autoclass:: transformers.TFLongformerForMultipleChoice
     :members: call
 

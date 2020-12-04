@@ -3,11 +3,11 @@ Pretrained models
 
 Here is the full list of the currently provided pretrained models together with a short presentation of each model.
 
-For a list that includes community-uploaded models, refer to `https://huggingface.co/models
+For a list that includes all community-uploaded models, refer to `https://huggingface.co/models
 <https://huggingface.co/models>`__.
 
 +--------------------+------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------+
-| Architecture       | Shortcut name                                              | Details of the model                                                                                                                  |
+| Architecture       | Model id                                                   | Details of the model                                                                                                                  |
 +====================+============================================================+=======================================================================================================================================+
 | BERT               | ``bert-base-uncased``                                      | | 12-layer, 768-hidden, 12-heads, 110M parameters.                                                                                    |
 |                    |                                                            | | Trained on lower-cased English text.                                                                                                |
@@ -332,6 +332,12 @@ For a list that includes community-uploaded models, refer to `https://huggingfac
 |                    +------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------+
 |                    | ``facebook/bart-large-cnn``                                | | 24-layer, 1024-hidden, 16-heads, 406M parameters       (same as large)                                                              |
 |                    |                                                            | | bart-large base architecture finetuned on cnn summarization task                                                                    |
++--------------------+------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------+
+| BARThez            | ``moussaKam/barthez``                                      | | 12-layer,  768-hidden, 12-heads, 216M parameters                                                                                    |
+|                    |                                                            |                                                                                                                                       |
+|                    |                                                            | (see `details <https://github.com/moussaKam/BARThez>`__)                                                                              |
+|                    +------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------+
+|                    | ``moussaKam/mbarthez``                                     | | 24-layer, 1024-hidden, 16-heads, 561M parameters                                                                                    |
 +--------------------+------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------+
 | DialoGPT           | ``DialoGPT-small``                                         | | 12-layer, 768-hidden, 12-heads, 124M parameters                                                                                     |
 |                    |                                                            | | Trained on English text: 147M conversation-like exchanges extracted from Reddit.                                                    |
